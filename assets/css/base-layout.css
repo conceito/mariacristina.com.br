@@ -1,0 +1,433 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.titulo {
+    font-family: "miriad pro","open sans";
+    font-size: 24px;
+    color: #006376;
+    margin-left: 125px;
+}
+
+.subtitulo{
+    font-family: "open sans";
+    font-size: 16px;
+    color: #006376;
+    margin-left: 125px;
+    font-style: italic;
+}
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+
+/*
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|    BASE
+|=================================================================================
+*/
+
+
+/*
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|    LAYOUT
+|---------------------------------------------------------------------------------
+*/
+
+
+body{
+    background-image: url(../img/header-bg.jpg);
+    background-position: center top;
+    background-repeat: repeat-x;
+    background-color: #ebf9fe;
+}
+.page-index{
+    background-color: #ffffff;
+}
+.container .logo {
+    margin-left: 365px;
+    margin-top: 150px;
+}
+
+.header-menu {
+    margin-left: 365px;
+}
+
+#body-internas{
+    background-color: #EBF9FD;
+
+}
+
+#body-internas {
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-left: 125px;
+    background-image:  url(../img/internas-bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.header-menu > li {
+    display: inline-block;
+    margin-left: -.3em;
+    color: #81CBD9;
+}
+
+#header .color-bar {
+    background-color: #ffffff;
+    margin-top: 40px;
+    min-height: 87px;
+    margin-left: -280px;
+    width: 150%;
+}
+
+.container .logo-interno {
+    margin-left: 230px;
+    margin-top: 60px;
+}
+.header-menu a:link,
+.header-menu a:visited{
+    color: #81CBD9;
+    display: block;
+    padding: 31px 20px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    font-size: 1.2em;
+}
+
+.header-menu a:hover{
+    background-color: #81CBD9;
+    color: #ffffff;
+}
+
+.header-menu .active {
+}
+
+.header-menu .active > a {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+#footer {
+    background: url(../img/footer-bg.jpg) repeat-x center top;
+    min-height: 220px;
+    margin-top: 80px;
+}
+
+#footer .container {
+    padding-top: 30px;
+}
+
+#footer .color-bar {
+    background-color: #E8F5F8;
+    margin-top: 40px;
+    min-height: 35px;
+    margin-left: -280px;
+    width: 150%;
+}
+.col-sm-8{
+    width: 100%;
+    margin-top: 30px;
+}
+
+#footer .share-lnk {
+    color: #fff;
+    font-weight: 700;
+}
+
+#footer .sprt {
+}
+
+#footer .icon-share {
+}
+
+.share-lnk .lb {
+}
+
+
+
+#footer address {
+    color: #fff;
+}
+
+
+#footer small {
+    display: block;
+    padding: 5px;
+    color: #ABABAB;
+    font-size: 11px;
+}
+
+
+#maps{
+    float: right;
+    margin-top: -80px;
+}
+
+h2 {
+    font-family: open sans;
+    text-align: center;
+}
+
+.conteudo-interno{
+    text-align: left;
+    margin-left: 125px;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+p{
+    font-family: open sans;
+    text-align: center;
+}
+
+
+.maps{
+    margin-top: -110px;
+    text-align: right;
+}
+
+.bio-columns{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.arrow {
+    margin-left: 570px;
+    margin-top: 100px;
+}
+#footer address{
+    color: #000000;
+    font-family: "open sans";
+}
+/* ==========================================================================
+   *
+   * mNNNNNNNNm     
+   * y````````y   
+   * y        s  
+   * y        s  
+   * y        s  
+   * y        s  
+   * d+++--+++d 
+   * NMMN//MMMN  
+   *
+   *
+   * PHONE ONLY !!!
+   ========================================================================== */
+
+@media all and (max-width: 768px) {
+
+}/*/mediaquery*/
+
+/* ==========================================================================
+   *
+   * 
+   * +yyyyhhhhdddddddddms
+   * sh-..............-Nd      mmddddddddddddddddddddddddddmm
+   * sd`              .Md      M+                          /M
+   * sd`              .Md      M+                          /M
+   * sd`              .Md      M+                          /M
+   * sd`              .Md      M+                          /M
+   * yd`              .Md      M+                          /M
+   * yd`              .Md   +  M+                          /M
+   * yd`              .Md      MmddddddddddddddddddddddddddmM
+   * yd.              .Md      mNNNNNNNNNNNNNNNNNNNNNNNNNNNNm
+   * yd.              .Md      ```````````:dddddd/```````````
+   * sdhdddddddmmmmmmmmNy                /dMMMMMMm+          
+   *-------------------------------------------------------------------------
+   * TABLET and  UP
+   ========================================================================== */
+
+@media all and (min-width: 768px) {
+
+}/*/mediaquery*/
+
+/* ==========================================================================
+   *
+   *
+   * mmddddddddddddddddddddddddddmm
+   * M+                          /M
+   * M+                          /M
+   * M+                          /M
+   * M+                          /M
+   * M+                          /M
+   * M+                          /M
+   * MmddddddddddddddddddddddddddmM
+   * mNNNNNNNNNNNNNNNNNNNNNNNNNNNNm
+   * ```````````:dddddd/```````````
+   *           /dMMMMMMm+          
+   *-------------------------------------------------------------------------
+   * DESKTOP
+   ========================================================================== */
+
+@media all and (min-width: 980px) {
+
+}/*/mediaquery*/
+
+/* ==========================================================================
+   *
+   *
+   * mmddddddddddddddddddddddddddddddddddddmm
+   * M+                                    /M
+   * M+                                    /M
+   * M+                                    /M
+   * M+                                    /M
+   * M+                                    /M
+   * M+                                    /M
+   * MmddddddddddddddddddddddddddddddddddddmM
+   * mNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNm
+   * ````````````````:dddddd/````````````````
+   *             /dMMMMMMMMMMm+          
+   *-------------------------------------------------------------------------
+   * RUGE DESKTOP
+   ========================================================================== */
+
+@media all and (min-width: 1281px) {
+
+}/*/mediaquery*/
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow:none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
