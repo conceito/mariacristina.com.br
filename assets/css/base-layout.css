@@ -52,17 +52,19 @@ hr {
 }
 
 .titulo {
-    font-family: "miriad pro","open sans";
+    font-family: "open sans condensed";
     font-size: 24px;
     color: #006376;
-    margin-left: 125px;
+    /* margin-left: 125px; */
+    margin-top: 20px;
+    display: block;
+    text-transform: uppercase;
 }
 
 .subtitulo{
-    font-family: "open sans";
     font-size: 16px;
     color: #006376;
-    margin-left: 125px;
+    /* margin-left: 125px; */
     font-style: italic;
 }
 .visuallyhidden {
@@ -119,12 +121,20 @@ body{
     background-color: #ffffff;
 }
 .container .logo {
-    margin-left: 365px;
+    /* margin-left: 365px; */
     margin-top: 150px;
+    text-align: center;
+}
+
+.container .logo img{
+    display: inline-block;
 }
 
 .header-menu {
-    margin-left: 365px;
+    /* margin-left: 365px; */
+    text-align: center;
+    width: 100%;
+    margin: 0;
 }
 
 #body-internas{
@@ -135,10 +145,11 @@ body{
 #body-internas {
     background-color: #ffffff;
     margin-top: 30px;
-    margin-left: 125px;
+    /* margin-left: 125px; */
     background-image:  url(../img/internas-bg.jpg);
-    background-position: center top;
+    background-position: left top;
     background-repeat: no-repeat;
+    padding: 30px 8.33333333%;
 }
 
 .header-menu > li {
@@ -150,9 +161,9 @@ body{
 #header .color-bar {
     background-color: #ffffff;
     margin-top: 40px;
-    min-height: 87px;
-    margin-left: -280px;
-    width: 150%;
+    /* min-height: 87px; */
+    /* margin-left: -280px; */
+    /* width: 150%; */
 }
 
 .container .logo-interno {
@@ -163,10 +174,10 @@ body{
 .header-menu a:visited{
     color: #81CBD9;
     display: block;
-    padding: 31px 20px;
+    padding: 25px 9px;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .header-menu a:hover{
@@ -187,22 +198,21 @@ body{
     background: url(../img/footer-bg.jpg) repeat-x center top;
     min-height: 220px;
     margin-top: 80px;
+    text-align: center;
 }
 
-#footer .container {
+#footer > .container {
     padding-top: 30px;
 }
 
 #footer .color-bar {
     background-color: #E8F5F8;
     margin-top: 40px;
-    min-height: 35px;
-    margin-left: -280px;
-    width: 150%;
+    /* min-height: 35px; */
+    /* margin-left: -280px; */
+    /* width: 150%; */
 }
 .col-sm-8{
-    width: 100%;
-    margin-top: 30px;
 }
 
 #footer .share-lnk {
@@ -228,49 +238,49 @@ body{
 
 #footer small {
     display: block;
-    padding: 5px;
+    padding: 10px 5px;
     color: #ABABAB;
     font-size: 11px;
 }
 
 
-#maps{
-    float: right;
-    margin-top: -80px;
-}
 
 h2 {
-    font-family: open sans;
-    text-align: center;
 }
 
 .conteudo-interno{
-    text-align: left;
-    margin-left: 125px;
-    font-size: 15px;
-    line-height: 40px;
+    /* text-align: left; */
+    /* margin-left: 125px; */
+    /* font-size: 15px; */
+    /* line-height: 40px; */
 }
 
 p{
-    font-family: open sans;
-    text-align: center;
 }
 
 
-.maps{
-    margin-top: -110px;
-    text-align: right;
-}
+
 
 .bio-columns{
     margin-top: 100px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
+    text-align: center;
+}
+
+.bio-description{
+    margin-top: 40px;
 }
 
 .arrow {
-    margin-left: 570px;
+    /* margin-left: 570px; */
     margin-top: 100px;
+    margin: 100px auto;
+    text-align: center;
 }
+.arrow > a{
+    display: inline-block;
+}
+
 #footer address{
     color: #000000;
     font-family: "open sans";
@@ -315,6 +325,18 @@ p{
 
 @media all and (min-width: 768px) {
 
+
+#footer {
+    text-align: left;
+}
+
+
+#footer .maps{
+    /* margin-top: -110px; */
+    text-align: right;
+}
+
+
 }/*/mediaquery*/
 
 /* ==========================================================================
@@ -336,6 +358,11 @@ p{
    ========================================================================== */
 
 @media all and (min-width: 980px) {
+
+#body-internas {
+    background-size: 100%;
+}
+
 
 }/*/mediaquery*/
 

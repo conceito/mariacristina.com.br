@@ -28,8 +28,8 @@
                 <div class="content bio-columns" id="medica">
                     <h2>Médica cirurgiã de Cabeça e Pescoço</h2>
 
-                    <div class="row">
-                        <div class="col-sm-8">
+                    <div class="bio-description">
+
 
                             <p>
                                 A Dra. Maria Cristina Matteotti atua na especialidade de Cirurgia de Cabeça e Pescoço e<br/>
@@ -38,7 +38,7 @@
                             </p>
                             <p><a href="perfil.php" target="_blank">SAIBA MAIS SOBRE A MÉDICA</a></p>
 
-                        </div>
+
                     </div>
 
                 </div>
