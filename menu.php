@@ -2,10 +2,9 @@
 	<div class="container">
 		<div class="row">
 
-			<div class="col-xs-12">
-
+			<div class="col-xs-12 menu_container">
 				<nav>
-					<ul class="unstyled header-menu">
+					<ul class="unstyled header-menu" id="menu">
 						<li class="<?php echo (is_home()) ? 'active' : '' ?>"><a href="./">HOME</a></li>
 						<li class="<?php echo ($p == 'perfil') ? 'active' : '' ?>"><a href="perfil.php">DRA MARIA
 								CRISTINA</a></li>

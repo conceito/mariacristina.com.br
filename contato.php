@@ -16,10 +16,12 @@
 <?php include("header_interno.php") ?>
 
 <div id="main" class="clearfix" role="main">
-    <div class="container" iu>
+    <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <div class="content bio-columns" id="body-internas">
+
+                <div class="content -bio-columns" id="body-internas">
+                    <h1 class="titulo" >Contato</h1>
                     <br/>
                     <br/>
 
@@ -65,22 +67,16 @@
                             </div>
                         </div>
 
-                        <div class="form-group">
-                            <div class="col-sm-offset-2 col-sm-8">
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox"> Remember me
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
+
 
                         <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-8">
-                                <button type="submit" class="btn btn-default">ENVIAR MENSAGEM</button>
-                            </div>
-                        </div>
+                                <button type="submit" class="btn btn-default">ENVIAR MENSAGEM </button>
+                                <div class="square-down"> </div>
 
+                            </div>
+
+                        </div>
                     </form>
 
                 </div>

@@ -15,30 +15,32 @@
 
 <?php include("header_interno.php") ?>
 
-<div id="main" class="clearfix" role="main">
+<div id="main-internas" class="clearfix" role="main">
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <div class="content bio-columns" id="body-internas">
-                    <br/>
-                    <br/>
+                <div class="content -bio-columns" id="body-internas">
 
-                    <h2 class="titulo" >Procedimentos Cirúrgicos</h2>
-                    <h2 class="subtitulo">bla bla</h2>
+                    <h1 class="titulo" >Procedimentos Cirurgicos</h1>
+                    <h2 class="subtitulo"></h2>
                     <div class="row">
-                        <div class="col-sm-8">
-
-                            <p class="conteudo-interno">
-                                <a href="./" title="<?php echo $titleSite ?>">
-                                    <div class="procedimentos-bt"></div>
-                                </a>
-
-                            </p>
+                        <div class="col-md-8">
+                            <div class="procedimentos"> <p> Cirurgias</p></div>
+                            <div class="procedimentos"> <p> Laringe</p></div>
+                            <div class="procedimentos"> <p> Boca</p></div>
+                            <div class="procedimentos"> <p> Glândulas salivares</p></div>
+                            <div class="procedimentos"> <p> Tireoide</p></div>
+                            <div class="procedimentos"> <p>Seios paranasais</p></div>
+                            <div class="procedimentos"> <p>Base de crânio</p></div>
+                            <div class="procedimentos"> <p>Tumores de pele</p></div>
+                            <div class="procedimentos"> <p>Tumores e mal-formações de pescoço e face</p></div>
+                            <div class="procedimentos"> <p>Tumores de órbita</p></div>
 
                         </div>
                     </div>
 
                 </div>
+
 
             </div>
         </div>

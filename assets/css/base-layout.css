@@ -51,6 +51,10 @@ hr {
     visibility: hidden;
 }
 
+.container .logo-interno img {
+    display: inline-block;
+}
+
 .titulo {
     font-family: "open sans condensed";
     font-size: 24px;
@@ -120,12 +124,15 @@ body{
 .page-index{
     background-color: #ffffff;
 }
-.container .logo {
-    /* margin-left: 365px; */
+.page-index .container .logo {
     margin-top: 150px;
     text-align: center;
 }
 
+.container .logo {
+    margin-top: 60px;
+    text-align: center;
+}
 .container .logo img{
     display: inline-block;
 }
@@ -136,20 +143,72 @@ body{
     width: 100%;
     margin: 0;
 }
-
-#body-internas{
-    background-color: #EBF9FD;
-
+.curriculum{
+    background-image:  url(../img/curriculum.jpg);
+}
+.curriculum p{
+    text-align: center;
+    padding-left: 18px;
+    padding-top: 18px;
+    color: #0000FF;
+}
+.procedimentos{
+    background-image:  url(../img/procedimentos-bt.jpg);
+    min-height: 45px;
+}
+.procedimentos p {
+    padding-left: 18px;
+    padding-top: 10px;
+    font-family: "open sans";
+    color: #124BC3;
+    margin: 0;
 }
 
+.btn {
+    display: inline;
+    border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 0px 10px;
+    -webkit-border-radius: 0 0 0px 10px;
+    background-color: #00BBE9;
+    color: #ffffff;
+}
+
+.link{
+    display: inline-block;
+    padding: 12px;
+    font-family: "open sans";
+    font-weight: bold;
+}
+.link > a{
+    font-weight: normal;
+    display: inline;
+}
 #body-internas {
-    background-color: #ffffff;
+    background-color: #FFF;
     margin-top: 30px;
-    /* margin-left: 125px; */
-    background-image:  url(../img/internas-bg.jpg);
+    background-image: url('../img/internas-bg.jpg');
     background-position: left top;
     background-repeat: no-repeat;
-    padding: 30px 8.33333333%;
+    padding: 30px 16.33333%;
+}
+
+.responsive_menu{
+    text-align: center;
+    background: #00bcea;
+}
+
+.responsive_menu > label {
+    background: #00bcea;
+    margin: 0;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.responsive_menu > select {
+    width: 100%;
+    border-color:#00bcea;
+    text-align: center;
 }
 
 .header-menu > li {
@@ -174,7 +233,7 @@ body{
 .header-menu a:visited{
     color: #81CBD9;
     display: block;
-    padding: 25px 9px;
+    padding: 22px 9px;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
     font-size: 1.1em;
@@ -212,8 +271,7 @@ body{
     /* margin-left: -280px; */
     /* width: 150%; */
 }
-.col-sm-8{
-}
+
 
 #footer .share-lnk {
     color: #fff;
@@ -229,8 +287,6 @@ body{
 .share-lnk .lb {
 }
 
-
-
 #footer address {
     color: #fff;
 }
@@ -243,27 +299,12 @@ body{
     font-size: 11px;
 }
 
-
-
-h2 {
-}
-
-.conteudo-interno{
-    /* text-align: left; */
+#body-internas .row{
     /* margin-left: 125px; */
-    /* font-size: 15px; */
-    /* line-height: 40px; */
 }
-
-p{
-}
-
-
-
 
 .bio-columns{
-    margin-top: 100px;
-    /* margin-left: 100px; */
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -272,10 +313,9 @@ p{
 }
 
 .arrow {
-    /* margin-left: 570px; */
-    margin-top: 100px;
     margin: 100px auto;
     text-align: center;
+    display: block;
 }
 .arrow > a{
     display: inline-block;
@@ -301,7 +341,9 @@ p{
    ========================================================================== */
 
 @media all and (max-width: 768px) {
-
+    .arrow {
+        margin: 125px auto;
+    }
 }/*/mediaquery*/
 
 /* ==========================================================================
@@ -324,7 +366,9 @@ p{
    ========================================================================== */
 
 @media all and (min-width: 768px) {
-
+    .arrow {
+        margin: 125px auto;
+    }
 
 #footer {
     text-align: left;
@@ -362,7 +406,12 @@ p{
 #body-internas {
     background-size: 100%;
 }
-
+.procedimentos{
+    min-width: 639px;
+}
+.curriculum{
+    min-height: 77px;
+}
 
 }/*/mediaquery*/
 

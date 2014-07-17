@@ -18,13 +18,12 @@
 <div id="main-internas" class="clearfix" role="main">
         <div class="container">
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xs-12 menu_container">
                 <div class="content -bio-columns" id="body-internas">
-
                     <h1 class="titulo" >Dra. Maria Cristina</h1>
                     <h2 class="subtitulo">Médica cirurgiã de Cabeça e Pescoço</h2>
                     <div class="row">
-                        <div class="col-md-8">
+
 
                             <p>
                                 Realizou residência médica na especialidade de Cirurgia de Cabeça e Pescoço no
@@ -45,10 +44,9 @@
 		                        <li>Cirurgiã de Cabeça e Pescoço do Hospital do Servidor Público Estadual de São Paulo</li>
 
 	                        </ul>
-
-                        </div>
+                            <div class="curriculum"> <p> Para conhecer toda formação e experiência profissional
+                                    da Dra. Maria Cristina Matteotti, acesse o seu currículo completo.</p></div>
                     </div>
-
                 </div>
 
             </div>

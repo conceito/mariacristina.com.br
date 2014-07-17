@@ -200,7 +200,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -288,7 +288,7 @@ h6,
 .h5,
 .h6 {
   font-family: inherit;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.1;
   color: inherit;
 }
@@ -1869,7 +1869,7 @@ select[multiple].input-lg {
   right: 15px;
 }
 .btn {
-  display: inline-block;
+  /* display: inline-block; */
   margin-bottom: 0;
   font-weight: normal;
   text-align: center;

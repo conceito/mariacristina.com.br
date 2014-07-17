@@ -15,36 +15,29 @@
 
 <?php include("header_interno.php") ?>
 
-<div id="main" class="clearfix" role="main">
+<div id="main-internas" class="clearfix" role="main">
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <div class="content bio-columns" id="body-internas">
-                    <br/>
-                    <br/>
+                <div class="content -bio-columns" id="body-internas">
 
-                    <h2 class="titulo" >Cirurgia de cabeça  pescoço</h2>
-                    <h2 class="subtitulo">bla bla</h2>
+                    <h1 class="titulo" >Cirurgia de cabeça e pescoço</h1>
+                    <h2 class="subtitulo">Médica cirurgiã de Cabeça e Pescoço</h2>
                     <div class="row">
-                        <div class="col-sm-8">
+                        <div class="col-md-8">
 
-                            <p class="conteudo-interno">
-                                bla blabla blabla blabla blabla blabla blabla bla<BR/>
-                                bla blabla blabla blabla blabla blabla blabla bla<BR/>
-                                bla blabla blabla blabla blabla blabla blabla bla<BR/>
-                                bla blabla blabla blabla blabla blabla blabla bla<BR/>
-                                bla blabla blabla blabla blabla blabla blabla bla<BR/>
-                                bla blabla blabla blabla blabla blabla blabla bla<BR/>
-                                bla blabla blabla blabla blabla blabla blabla bla<BR/>
-                                bla blabla blabla blabla blabla blabla blabla bla<BR/>
-                                bla blabla blabla blabla blabla blabla blabla bla<BR/>
-                                bla blabla blabla blabla blabla blabla blabla bla<BR/>
+                            <p>
+                                bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                                bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                                bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+
                             </p>
 
                         </div>
                     </div>
 
                 </div>
+
 
             </div>
         </div>
