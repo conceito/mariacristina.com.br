@@ -5,5 +5,8 @@ $(document).ready(function () {
             textBefore: 'MENU',
             activeClass:  'active'
         });
+            $('#img_arrow').click(function () {
+                $.scrollTo('#medica', 2500);
+            });
     });
 });

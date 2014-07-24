@@ -23,7 +23,7 @@ $base_url = str_replace('\\', '', $base_url);
  *  CLIENT CONFIG
  */
 $titleSite = "Maria Cristina Matteotti";
-$emailSite = "gustt103@gmail.com";
+$emailSite = "";
 
 /***************************************
  *   INIT ERRORS

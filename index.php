@@ -24,9 +24,7 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="arrow">
-                    <a href="#medica" title="<?php echo $titleSite ?>">
-                        <img src="<?php echo $base_url?>assets/img/arrow.png" class="img-responsive" alt="<?php echo $titleSite ?>"/>
-                    </a>
+                        <img src="<?php echo $base_url?>assets/img/arrow.png" class="img-responsive" id="img-arrow" alt="<?php echo $titleSite ?>"/>
                 </div>
                 <div class="content bio-columns" id="medica">
                     <h2>Médica cirurgiã de Cabeça e Pescoço</h2>
