@@ -37,7 +37,7 @@
                                 possui vasta experiência em cirurgias de alta complexidade e tratamentos oncológicos.<br/>
 
                             </p>
-                            <p><a href="perfil.php" target="_blank">SAIBA MAIS SOBRE A MÉDICA</a></p>
+                            <a href="perfil.php">SAIBA MAIS SOBRE A MÉDICA</a>
 
 
                     </div>

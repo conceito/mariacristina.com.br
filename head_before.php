@@ -10,7 +10,7 @@
 <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
 
 
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700|Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="assets/css/bootstrap.css">
 <link rel="stylesheet" href="assets/css/base-layout.css">
 <link rel="stylesheet" href="assets/css/module-template.css">

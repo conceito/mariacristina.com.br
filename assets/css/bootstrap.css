@@ -1582,6 +1582,7 @@ output {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  /* resize: vertical; */
 }
 .form-control:focus {
   border-color: #66afe9;
@@ -1607,7 +1608,8 @@ fieldset[disabled] .form-control {
   opacity: 1;
 }
 textarea.form-control {
-  height: auto;
+  /* height: auto; */
+  resize: horizontal;
 }
 input[type="search"] {
   -webkit-appearance: none;
@@ -1861,8 +1863,10 @@ select[multiple].input-lg {
 }
 @media (min-width: 768px) {
   .form-horizontal .control-label {
-    text-align: right;
-  }
+    text-align: left;
+  
+    font-weight: 400;
+}
 }
 .form-horizontal .has-feedback .form-control-feedback {
   top: 0;

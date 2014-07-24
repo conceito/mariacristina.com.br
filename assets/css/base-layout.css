@@ -51,26 +51,7 @@ hr {
     visibility: hidden;
 }
 
-.container .logo-interno img {
-    display: inline-block;
-}
 
-.titulo {
-    font-family: "open sans condensed";
-    font-size: 24px;
-    color: #006376;
-    /* margin-left: 125px; */
-    margin-top: 20px;
-    display: block;
-    text-transform: uppercase;
-}
-
-.subtitulo{
-    font-size: 16px;
-    color: #006376;
-    /* margin-left: 125px; */
-    font-style: italic;
-}
 .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
@@ -102,8 +83,47 @@ hr {
 |    BASE
 |=================================================================================
 */
+body{
+    background-image: url(../img/header-bg.jpg);
+    background-position: center top;
+    background-repeat: repeat-x;
+    background-color: #ebf9fe;
+}
 
+#body-internas {
+    background-color: #FFF;
+    margin-top: 30px;
+    background-image: url('../img/internas-bg.jpg');
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding: 30px 16.33333%;
+}
 
+#footer {
+    background: url(../img/footer-bg.jpg) repeat-x center top;
+    min-height: 220px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+h2{
+    font-family: "open sans";
+    font-size: 16px;
+    color: #006376;
+    font-style: italic;
+    padding-bottom: 30px;
+}
+
+p{
+    font-family: "open sans";
+}
+
+h1{
+    font-family: "open sans condensed";
+    font-size: 24px;
+    color: #006376;
+    font-weight: 700;
+}
 /*
 |=================================================================================
 |=================================================================================
@@ -115,12 +135,17 @@ hr {
 */
 
 
-body{
-    background-image: url(../img/header-bg.jpg);
-    background-position: center top;
-    background-repeat: repeat-x;
-    background-color: #ebf9fe;
+.container .logo-interno img {
+    display: inline-block;
 }
+
+.titulo {
+    margin-top: 20px;
+    display: block;
+    text-transform: uppercase;
+}
+
+
 .page-index{
     background-color: #ffffff;
 }
@@ -138,7 +163,6 @@ body{
 }
 
 .header-menu {
-    /* margin-left: 365px; */
     text-align: center;
     width: 100%;
     margin: 0;
@@ -148,9 +172,8 @@ body{
 }
 .curriculum p{
     text-align: center;
-    padding-left: 18px;
-    padding-top: 18px;
-    color: #0000FF;
+    padding: 9px;
+    color: #000000;
 }
 .procedimentos{
     background-image:  url(../img/procedimentos-bt.jpg);
@@ -171,6 +194,7 @@ body{
     -webkit-border-radius: 0 0 0px 10px;
     background-color: #00BBE9;
     color: #ffffff;
+    /* z-index: 999; */
 }
 
 .link{
@@ -179,18 +203,12 @@ body{
     font-family: "open sans";
     font-weight: bold;
 }
+
 .link > a{
     font-weight: normal;
     display: inline;
 }
-#body-internas {
-    background-color: #FFF;
-    margin-top: 30px;
-    background-image: url('../img/internas-bg.jpg');
-    background-position: left top;
-    background-repeat: no-repeat;
-    padding: 30px 16.33333%;
-}
+
 
 .responsive_menu{
     text-align: center;
@@ -220,15 +238,13 @@ body{
 #header .color-bar {
     background-color: #ffffff;
     margin-top: 40px;
-    /* min-height: 87px; */
-    /* margin-left: -280px; */
-    /* width: 150%; */
 }
 
 .container .logo-interno {
     margin-left: 230px;
     margin-top: 60px;
 }
+
 .header-menu a:link,
 .header-menu a:visited{
     color: #81CBD9;
@@ -244,20 +260,9 @@ body{
     color: #ffffff;
 }
 
-.header-menu .active {
-}
-
 .header-menu .active > a {
     background-color: #ffffff;
     color: #000000;
-}
-
-
-#footer {
-    background: url(../img/footer-bg.jpg) repeat-x center top;
-    min-height: 220px;
-    margin-top: 80px;
-    text-align: center;
 }
 
 #footer > .container {
@@ -267,9 +272,6 @@ body{
 #footer .color-bar {
     background-color: #E8F5F8;
     margin-top: 40px;
-    /* min-height: 35px; */
-    /* margin-left: -280px; */
-    /* width: 150%; */
 }
 
 
@@ -278,14 +280,6 @@ body{
     font-weight: 700;
 }
 
-#footer .sprt {
-}
-
-#footer .icon-share {
-}
-
-.share-lnk .lb {
-}
 
 #footer address {
     color: #fff;
@@ -297,10 +291,6 @@ body{
     padding: 10px 5px;
     color: #ABABAB;
     font-size: 11px;
-}
-
-#body-internas .row{
-    /* margin-left: 125px; */
 }
 
 .bio-columns{
@@ -317,13 +307,74 @@ body{
     text-align: center;
     display: block;
 }
-.arrow > a{
+.arrow > img{
     display: inline-block;
+    cursor: pointer;
 }
 
 #footer address{
     color: #000000;
     font-family: "open sans";
+}
+
+.bio-columns h2{
+    color: #646464;
+    font-weight: 300;
+    font-size: 21px;
+    font-style: normal;
+}
+
+.bio-description p {
+    color: #646464;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.bio-description a{
+    color: #438BCB;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.txt-profile{
+    line-height: 30px;
+    color: #858484;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#mensagem_field{
+    resize: vertical;
+    max-height: 70px;
+    min-height: 70px;
+}
+
+.label{
+    font-family: "open sans";
+    font-weight: 400;
+    font-size: 14px;
+    color: #858484;
+    font-weight: normal;
+}
+.mensagem{
+    z-index : -1;
+}
+.square-down{
+    position: static;
+    margin-top: -59px;
+    margin-left: 100px;
+    border-width: 30px;
+    border-style: solid;
+    border-color: transparent #51D1F1 #51D1F1 transparent;
+    height: 1px;
+    width: 1px;
+}
+
+.address{
+    color: #858484;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 15px;
 }
 /* ==========================================================================
    *
@@ -405,6 +456,7 @@ body{
 
 #body-internas {
     background-size: 100%;
+    overflow: auto;
 }
 .procedimentos{
     min-width: 639px;

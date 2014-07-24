@@ -21,10 +21,10 @@
             <div class="col-xs-12">
 
                 <div class="content -bio-columns" id="body-internas">
-                    <h1 class="titulo" >Contato</h1>
+                    <h1 class="titulo">Contato</h1>
                     <br/>
                     <br/>
-
+                    <div class="col-md-7">
                     <?php
                     /*
                     |===================================================================================
@@ -43,42 +43,59 @@
                     <form action="mail.php?t=contato" method="post" role="form" class="form-horizontal">
 
                         <div class="form-group">
-                            <label for="nome_field" class="col-sm-2 control-label">Nome</label>
+                            <div class="row">
+                            <label for="nome_field" class="col-sm-2 control-label">Nome</label><br/></div>
+                            <div class="row">
                             <div class="col-sm-8">
                                 <input type="text" name="nome" class="form-control" id="nome_field" value="<?php echo
                                 set_value('nome')?>" required>
+                            </div></div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="row">
+                            <label for="email_field" class="col-sm-2 control-label">Telefone</label></div>
+                            <div class="row"><div class="col-sm-8">
+                                <input type="telefone" name="telefone" class="form-control" id="telefone_field"  placeholder="(xx) xxxxx-xxxx" value="<?php
+                                echo set_value('email')?>" required></div>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label for="email_field" class="col-sm-2 control-label">E-mail</label>
-                            <div class="col-sm-8">
-                                <input type="email" name="email" class="form-control" id="email_field" value="<?php
-                                echo set_value('email')?>"
-                                       required>
+                            <div class="row">
+                                <label for="email_field" class="col-sm-2 control-label">E-mail</label></div>
+                            <div class="row"><div class="col-sm-8">
+                                    <input type="email" name="email" class="form-control" id="email_field" value="<?php
+                                    echo set_value('email')?>" required></div>
                             </div>
                         </div>
 
-
                         <div class="form-group">
-                            <label for="mensagem_field" class="col-sm-2 control-label">Mensagem</label>
-                            <div class="col-sm-8">
+                            <div class="row">
+                            <label for="mensagem_field" class="col-sm-2 control-label">Mensagem</label></div>
+
                                 <textarea name="mensagem" id="mensagem_field" class="form-control" cols="30" rows="10" required><?php echo set_value('mensagem')?></textarea>
-                            </div>
                         </div>
 
 
 
                         <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-8">
-                                <button type="submit" class="btn btn-default">ENVIAR MENSAGEM </button>
-                                <div class="square-down"> </div>
-
+                                <button type="submit" class="btn btn-default"><p class="enviar">ENVIAR MENSAGEM</p> </button>
                             </div>
 
                         </div>
                     </form>
+                    </div>
 
+                    <div class="col-md-5">
+                        <p class="address">R. Funchal, 551 – 8º andar – Conj: 81<br/>
+                            Vila Olímpia – São Paulo – SP<br/>
+                            CEP.: 04551-060<br/>
+                            (11) 2615-0809<br/>
+                            2198-3444<br/>
+                            2615-0807</p>
+                    </div>
                 </div>
             </div>
         </div>
