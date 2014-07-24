@@ -45,6 +45,6 @@
 
 <script src="assets/js/jquery-1.10.2.min.js" type="text/javascript"></script>
 <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="assets/js/page.all.js" type="text/javascript"></script>
 <script src="assets/js/jquery.scrollTo.js" type="text/javascript"></script>
 <script src="assets/js/jquery.resmenu.js" type="text/javascript"></script>
+<script src="assets/js/page.all.js" type="text/javascript"></script>
