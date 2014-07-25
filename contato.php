@@ -81,7 +81,9 @@
 
                         <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-8">
-                                <button type="submit" class="btn btn-default"><p class="enviar">ENVIAR MENSAGEM</p> </button>
+                                <div class="btn-square"></div>
+                                <button type="submit" class="btn btn-default "><p class="enviar">ENVIAR MENSAGEM</p>
+                                </button>
                             </div>
 
                         </div>

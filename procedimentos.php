@@ -25,17 +25,168 @@
                     <h2 class="subtitulo"></h2>
                     <div class="row">
                         <div class="col-md-8">
-                            <div class="procedimentos"> <p> Cirurgias</p></div>
-                            <div class="procedimentos"> <p> Laringe</p></div>
-                            <div class="procedimentos"> <p> Boca</p></div>
-                            <div class="procedimentos"> <p> Glândulas salivares</p></div>
-                            <div class="procedimentos"> <p> Tireoide</p></div>
-                            <div class="procedimentos"> <p>Seios paranasais</p></div>
-                            <div class="procedimentos"> <p>Base de crânio</p></div>
-                            <div class="procedimentos"> <p>Tumores de pele</p></div>
-                            <div class="procedimentos"> <p>Tumores e mal-formações de pescoço e face</p></div>
-                            <div class="procedimentos"> <p>Tumores de órbita</p></div>
+                            <div class="panel-group" id="accordion">
+                                <div class="panel panel-default opened">
+                                    <div class="panel-heading">
+                                        <div class="procedimentos panel-title">
+                                            <a href="#procedure1" class-="triangle-down" data-toggle="collapse" data-parent="#accordion">Cirurgias</a>
+                                                <span class="triangle-down"/>
+                                        </div>
+                                    </div>
+                                        <div id="procedure1" class="panel-collapse collapse in">
+                                            <div class="panel-body">
+                                                Exame de diagnóstico por imagem que retrata os órgãos com alta definição e não utiliza radiação. Ele pode ser usado para diagnosticar, entre outros problemas, esclerose múltipla, tumores, lesões e derrames.
 
+                                                Preparação para o exame
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="procedimentos panel-title">
+                                            <a href="#procedure2" class-="triangle-down" data-toggle="collapse" data-parent="#accordion">Laringe</a>
+                                            <span class="triangle-down"/>
+                                        </div>
+                                    </div>
+                                    <div id="procedure2" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            Exame de diagnóstico por imagem que retrata os órgãos com alta definição e não utiliza radiação. Ele pode ser usado para diagnosticar, entre outros problemas, esclerose múltipla, tumores, lesões e derrames.
+
+                                            Preparação para o exame
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="procedimentos panel-title">
+                                            <a href="#procedure3" class-="triangle-down" data-toggle="collapse" data-parent="#accordion">Boca</a>
+                                            <span class="triangle-down"/>
+                                        </div>
+                                    </div>
+                                    <div id="procedure3" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            Exame de diagnóstico por imagem que retrata os órgãos com alta definição e não utiliza radiação. Ele pode ser usado para diagnosticar, entre outros problemas, esclerose múltipla, tumores, lesões e derrames.
+
+                                            Preparação para o exame
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="procedimentos panel-title">
+                                            <a href="#procedure4" class-="triangle-down" data-toggle="collapse" data-parent="#accordion">Glândulas salivares</a>
+                                            <span class="triangle-down"/>
+                                        </div>
+                                    </div>
+                                    <div id="procedure4" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            Exame de diagnóstico por imagem que retrata os órgãos com alta definição e não utiliza radiação. Ele pode ser usado para diagnosticar, entre outros problemas, esclerose múltipla, tumores, lesões e derrames.
+
+                                            Preparação para o exame
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="procedimentos panel-title">
+                                            <a href="#procedure5" class-="triangle-down" data-toggle="collapse" data-parent="#accordion">Tireoide</a>
+                                            <span class="triangle-down"/>
+                                        </div>
+                                    </div>
+                                    <div id="procedure5" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            Exame de diagnóstico por imagem que retrata os órgãos com alta definição e não utiliza radiação. Ele pode ser usado para diagnosticar, entre outros problemas, esclerose múltipla, tumores, lesões e derrames.
+
+                                            Preparação para o exame
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="procedimentos panel-title">
+                                            <a href="#procedure6" class-="triangle-down" data-toggle="collapse" data-parent="#accordion">Seios paranasais</a>
+                                            <span class="triangle-down"/>
+                                        </div>
+                                    </div>
+                                    <div id="procedure6" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            Exame de diagnóstico por imagem que retrata os órgãos com alta definição e não utiliza radiação. Ele pode ser usado para diagnosticar, entre outros problemas, esclerose múltipla, tumores, lesões e derrames.
+
+                                            Preparação para o exame
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="procedimentos panel-title">
+                                            <a href="#procedure7" class-="triangle-down" data-toggle="collapse" data-parent="#accordion">Base de crânio</a>
+                                            <span class="triangle-down"/>
+                                        </div>
+                                    </div>
+                                    <div id="procedure7" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            Exame de diagnóstico por imagem que retrata os órgãos com alta definição e não utiliza radiação. Ele pode ser usado para diagnosticar, entre outros problemas, esclerose múltipla, tumores, lesões e derrames.
+
+                                            Preparação para o exame
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="procedimentos panel-title">
+                                            <a href="#procedure8" class-="triangle-down" data-toggle="collapse" data-parent="#accordion">Tumores de pele</a>
+                                            <span class="triangle-down"/>
+                                        </div>
+                                    </div>
+                                    <div id="procedure8" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            Exame de diagnóstico por imagem que retrata os órgãos com alta definição e não utiliza radiação. Ele pode ser usado para diagnosticar, entre outros problemas, esclerose múltipla, tumores, lesões e derrames.
+
+                                            Preparação para o exame
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="procedimentos panel-title">
+                                            <a href="#procedure9" class-="triangle-down" data-toggle="collapse" data-parent="#accordion">Tumores de pescoço e face</a>
+                                            <span class="triangle-down"/>
+                                        </div>
+                                    </div>
+                                    <div id="procedure9" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            Exame de diagnóstico por imagem que retrata os órgãos com alta definição e não utiliza radiação. Ele pode ser usado para diagnosticar, entre outros problemas, esclerose múltipla, tumores, lesões e derrames.
+
+                                            Preparação para o exame
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="procedimentos panel-title">
+                                            <a href="#procedure10" class-="triangle-down" data-toggle="collapse" data-parent="#accordion">Tumores de órbita</a>
+                                            <span class="triangle-down"/>
+                                        </div>
+                                    </div>
+                                    <div id="procedure10" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            Exame de diagnóstico por imagem que retrata os órgãos com alta definição e não utiliza radiação. Ele pode ser usado para diagnosticar, entre outros problemas, esclerose múltipla, tumores, lesões e derrames.
+
+                                            Preparação para o exame
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
 
