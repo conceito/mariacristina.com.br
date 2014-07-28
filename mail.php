@@ -32,8 +32,13 @@ if ($type == 'contato'):
 	 */
 	$subject   = 'Contato pelo site';
 	$formName  = trim($_POST['nome']);
+	$formTel = trim($_POST['telefone']);
 	$formEmail = trim($_POST['email']);
 	$msg = trim($_POST['mensagem']);
+
+	// 99 9999 9999
+	// 99 99999 9999
+	$telToValidate = str_replace(array('-', ' ', '.', '(', ')'), '', $formTel);
 
 	/**
 	 * Validation
@@ -45,6 +50,12 @@ if ($type == 'contato'):
 		redirect($type);
 	}
 	else if (!filter_var($formEmail, FILTER_VALIDATE_EMAIL))
+	{
+		$_SESSION['error']['msg'] = 'Preencha o e-mail.';
+		$_SESSION['error']['id']  = 1;
+		redirect($type);
+	}
+	else if (strlen($telToValidate) < 10)
 	{
 		$_SESSION['error']['msg'] = 'Preencha o e-mail.';
 		$_SESSION['error']['id']  = 1;
