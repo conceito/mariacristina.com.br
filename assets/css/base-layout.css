@@ -177,17 +177,17 @@ h1{
 }
 .procedimentos{
     background-color: #ffffff ;
-    height: 42px;
+    /* height: 42px; */
     box-shadow: 3px 5px 6px #EFEFEF;
     margin-bottom: 4px;
     background-image: url(../img/bt-procedimento.png);
-    width: 485px;
+    /* width: 485px; */
     background-repeat: no-repeat;
     position: relative;
     margin-bottom: 5px;
     padding: 8px;
     padding-top: 12px;
-    max-width: 100%;
+    /* max-width: 100%; */
     background-size: cover;
     min-height: 45px;
 }
@@ -197,6 +197,7 @@ h1{
     font-family: "open sans";
     color: #124BC3;
     cursor: pointer;
+    display: block;
 }
 
 .procedimentos:hover .triangle-down,
@@ -354,8 +355,8 @@ h1{
 
 #mensagem_field{
     resize: vertical;
-    max-height: 70px;
-    min-height: 70px;
+    /* max-height: 70px; */
+    /* min-height: 70px; */
 }
 
 .label{
@@ -369,9 +370,11 @@ h1{
     z-index : -1;
 }
 .triangle-down{
-    position: relative;
-    margin-top: 18px;
-    margin-right: -8px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /* margin-top: 18px; */
+    /* margin-right: -8px; */
     border-width: 7px;
     border-style: solid;
     border-color: transparent #51D1F1 #51D1F1 transparent;
