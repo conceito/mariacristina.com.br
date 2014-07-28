@@ -32,7 +32,8 @@ if ($type == 'contato'):
 	 */
 	$subject   = 'Contato pelo site';
 	$formName  = trim($_POST['nome']);
-	$formEmail = trim($_POST['email']);
+    $formTel = trim($_POST['telefone']);
+    $formEmail = trim($_POST['email']);
 	$msg = trim($_POST['mensagem']);
 
 	/**
@@ -56,16 +57,18 @@ if ($type == 'contato'):
 		$_SESSION['error']['id']  = 1;
 		redirect($type);
 	}
-
 	$body = '<b>Nome: </b>' . $formName . '';
 	$body .= '<br>' . PHP_EOL;
-	$body .= '<b>E-mail: </b>' . $formEmail;
+    $body .= '<b> Telefone </b>' .$formTel;
+    $body .= '<br>' . PHP_EOL;
+    $body .= '<b>E-mail: </b>' . $formEmail;
 	$body .= '<br>' . PHP_EOL;
+    $body .= '<b> Mensagem: </b>';
 	$body .= $msg;
 
 	$html = load_email_template($body);
-
-
+echo $html;
+exit;
 endif;
 // contato
 

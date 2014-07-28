@@ -57,7 +57,7 @@
                             <label for="email_field" class="col-sm-2 control-label">Telefone</label></div>
                             <div class="row"><div class="col-sm-8">
                                 <input type="telefone" name="telefone" class="form-control" id="telefone_field"  placeholder="(xx) xxxxx-xxxx" value="<?php
-                                echo set_value('email')?>" required></div>
+                                echo set_value('telefone')?>" required></div>
                             </div>
                         </div>
 

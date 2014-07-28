@@ -27,13 +27,13 @@
 
                             <img src="<?php echo $base_url?>assets/img/logo-inca.jpg"  alt="<?php echo $titleSite ?>"/>
                             <p class="link">INCA<br/>
-                                <a>www2.inca.gov.br</a></p>
+                                <a href="http://www2.inca.gov.br" target="_blank">www2.inca.gov.br</a></p>
                         </div>
                         <div class="col-sm-6">
 
                             <img src="<?php echo $base_url?>assets/img/logo-abccmf.jpg"  alt="<?php echo $titleSite ?>"/>
                             <p class="link">ABCCMF<br/>
-                                <a>www.abccmf.org.br</a></p>
+                                <a href="http://www.abccmf.org.br" target="_blank">www.abccmf.org.br</a></p>
                         </div>
 
                     </div>
@@ -41,13 +41,13 @@
                         <div class="col-sm-6">
                             <img src="<?php echo $base_url?>assets/img/logo-accamargo.jpg"  alt="<?php echo $titleSite ?>"/>
                             <p class="link">ACCamargo Cancer Center<br/>
-                                <a>www.accamargo.org.br</a></p>
+                                <a href="http://www.accamargo.org.br" target="_blank">www.accamargo.org.br</a></p>
                         </div>
                         <div class="col-sm-6">
 
                             <img src="<?php echo $base_url?>assets/img/logo-into.jpg"  alt="<?php echo $titleSite ?>"/>
                             <p class="link">INTO<br/>
-                                <a>www.into.saude.gov.br</a></p>
+                                <a href="http://www.into.saude.gov.br" target="_blank">www.into.saude.gov.br</a></p>
                         </div>
                     </div>
 
@@ -55,7 +55,7 @@
                         <div class="col-sm-6">
                             <img src="<?php echo $base_url?>assets/img/logo-sbccp.jpg"  alt="<?php echo $titleSite ?>"/>
                             <p class="link">SBCCP<br/>
-                                <a>www.sbccp.org.br</a></p></div>
+                                <a href="http://www.sbccp.org.br" target="_blank">www.sbccp.org.br</a></p></div>
                     </div>
                 </div>
 
