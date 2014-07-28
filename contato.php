@@ -57,7 +57,7 @@
                             <label for="email_field" class="col-sm-2 control-label">Telefone</label></div>
                             <div class="row"><div class="col-sm-8">
                                 <input type="telefone" name="telefone" class="form-control" id="telefone_field"  placeholder="(xx) xxxxx-xxxx" value="<?php
-                                echo set_value('email')?>" required></div>
+                                echo set_value('telefone')?>" required></div>
                             </div>
                         </div>
 
@@ -80,12 +80,7 @@
 
 
                         <div class="form-group">
-                            <div class="col-sm-offset-2 col-sm-8">
-                                <div class="btn-square"></div>
-                                <button type="submit" class="btn btn-default "><p class="enviar">ENVIAR MENSAGEM</p>
-                                </button>
-                            </div>
-
+                                <button type="submit" class="btn btn-square">ENVIAR MENSAGEM</button>
                         </div>
                     </form>
                     </div>

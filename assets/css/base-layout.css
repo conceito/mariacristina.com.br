@@ -177,14 +177,14 @@ h1{
 }
 .procedimentos{
     background-color: #ffffff ;
-    height: 45px;
+    height: 42px;
     box-shadow: 3px 5px 6px #EFEFEF;
     margin-bottom: 4px;
     background-image: url(../img/bt-procedimento.png);
+    width: 485px;
     background-repeat: no-repeat;
     position: relative;
     margin-bottom: 5px;
-    /* display: block; */
     padding: 8px;
     padding-top: 12px;
     max-width: 100%;
@@ -204,15 +204,7 @@ h1{
     border-color: transparent #cc0000 #cc0000 transparent;
 }
 
-.btn {
-    display: inline;
-    border-radius: 0 0 10px 10px;
-    -moz-border-radius: 0 0 0px 10px;
-    -webkit-border-radius: 0 0 0px 10px;
-    background-color: #00BBE9;
-    color: #ffffff;
-    /* z-index: 999; */
-}
+
 
 .link{
     display: inline-block;
@@ -388,7 +380,7 @@ h1{
 }
 
 .square{
-    border-bottom: 50px solid #51D1F1;
+   /border-bottom: 50px solid #51D1F1;
     border-left: 66px solid transparent;
     border-right: 0px solid transparent;
     height: 0;
@@ -405,16 +397,23 @@ h1{
     padding-top: 15px;
 }
 
-.btn-default::after{
-    border-bottom: 50px solid #51D1F1;
-    border-left: 66px solid transparent;
-    border-right: 0px solid transparent;
-    height: 0;
-    width: 100px;
+.btn {
+
+}
+.btn-square{
+    background-color: #00BBE9;
+    width: 200px;
+    min-width: 200px;
+    height: 50px;
+    min-height: 50px;
+    box-shadow: 3px 5px 6px #EFEFEF;
+    background-image: url(../img/btn-enviar.png);
+    background-repeat: no-repeat;
     position: relative;
-    z-index: 99999;
-    margin-top: -45px;
-    margin-left: 59px;
+    background-position-x: 28px;
+    background-size: cover;
+    -webkit-border-radius: 0 0 10px 10px;
+    color: #ffffff;
 }
 
 /* ==========================================================================
@@ -436,8 +435,14 @@ h1{
     .arrow {
         margin: 125px auto;
     }
-    
-}
+    .btn{
+        font-size: 12px;
+    }
+    .btn-square{
+       width: 150px;
+        min-width: 150px;
+    }
+
 }/*/mediaquery*/
 
 /* ==========================================================================
@@ -500,7 +505,7 @@ h1{
 #body-internas {
     background-size: 100%;
     overflow: auto;
-
+}
 .curriculum{
     min-height: 77px;
 }

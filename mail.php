@@ -34,6 +34,7 @@ if ($type == 'contato'):
 	$formName  = trim($_POST['nome']);
 	$formTel = trim($_POST['telefone']);
 	$formEmail = trim($_POST['email']);
+
 	$msg = trim($_POST['mensagem']);
 
 	// 99 9999 9999
@@ -67,16 +68,18 @@ if ($type == 'contato'):
 		$_SESSION['error']['id']  = 1;
 		redirect($type);
 	}
-
 	$body = '<b>Nome: </b>' . $formName . '';
 	$body .= '<br>' . PHP_EOL;
-	$body .= '<b>E-mail: </b>' . $formEmail;
+    $body .= '<b> Telefone </b>' .$formTel;
+    $body .= '<br>' . PHP_EOL;
+    $body .= '<b>E-mail: </b>' . $formEmail;
 	$body .= '<br>' . PHP_EOL;
+    $body .= '<b> Mensagem: </b>';
 	$body .= $msg;
 
 	$html = load_email_template($body);
-
-
+echo $html;
+exit;
 endif;
 // contato
 

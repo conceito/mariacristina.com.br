@@ -20,12 +20,11 @@
                         <table cellspacing="0" cellpadding="0" border="0" width="600">
                             <tr bgcolor="#FFFFFF" style="background-color:#FFFFFF">
                                 <td width="30"></td>
-                                <td width="540" align="right" valign="top" style="font-family:Arial; font-size:14px; line-height:22px; color:#11263E;">
+                                <td width="540" align="center" valign="top" style="font-family:Arial; font-size:14px; line-height:22px; color:#11263E;">
                                     <br/>
-                                    <a href="<?php echo $base_url?>" style="text-align: right; display: block;">
-	                                    <?php echo $titleSite?>
-<!--                                        <img src="--><?php //echo $base_url?><!--assets/img/logo-cor.png"  width="200" alt="">-->
-                                    </a>
+                                    <a href="<?php echo $base_url?>" style="text-align: center; display: block;">
+                                        <img src="<?php echo $base_url ?>assets/img/logo.png" class="img-responsive"
+                                             alt="<?php echo $titleSite ?>"/>                                    </a>
                                     <br/>
 
                                 </td>
